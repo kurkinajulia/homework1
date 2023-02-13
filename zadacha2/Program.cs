@@ -9,12 +9,13 @@ Console.WriteLine("Введите b");
 b = Convert.ToInt32(Console.ReadLine());
 int max = a;
 int min = a;
-if (a>max)
+
+if (a>b)
 {
 max = a;
 min = b;
 }
-if (b>max)
+if (b>a)
 {
 max = b;
 min = a;
