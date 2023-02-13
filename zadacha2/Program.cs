@@ -14,20 +14,10 @@ if (a>max)
 max = a;
 min = b;
 }
-else 
-{
-max = b;
-min = a;
-}
 if (b>max)
 {
 max = b;
 min = a;
-}
-else
-{
-max = a;
-min = b;
 }
 Console.WriteLine("max = ");
 Console.WriteLine(max);
